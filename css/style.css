@@ -20,6 +20,7 @@ html {
 }
 
 body {
+  width: 100%;
   overflow-x: hidden;
   font-family: "Fragment Mono", monospace;
 }
@@ -35,7 +36,6 @@ a {
 }
 
 .header {
-  width: 100%;
   position: relative;
   box-shadow: 0 1px 1px var(--rosa3);
   background: linear-gradient(42deg, rgb(232, 148, 163) 26%, rgb(227, 106, 113) 61%, rgb(238, 108, 108) 90%);
@@ -139,6 +139,7 @@ a {
   display: none;
 }
 .header .sub-menu {
+  margin-right: 30%;
   display: none;
   color: #fff;
   font-size: 2rem;

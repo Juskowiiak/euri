@@ -1,0 +1,15 @@
+@mixin tela_1070 {
+  @media (max-width: 1070px) {
+    @content;
+  }
+}
+@mixin tela_880 {
+  @media (max-width: 880px) {
+    @content;
+  }
+}
+@mixin tela_650 {
+  @media (max-width: 650px) {
+    @content;
+  }
+}
